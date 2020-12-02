@@ -15,6 +15,10 @@ Link to Trello board can be found [here](https://trello.com/b/mRx0Lpqv).
 * [Loading scikit-learn Digits dataset](./creating-data/Loading_scikit_learn_digits_dataset.ipynb)
 * [Loading scikit-learn Iris dataset](./creating-data/Loading_scikit_learn_iris_datset.ipynb)
 
+## Data wrangling
+
+* [Group_pandas_data_by_hour_of_day](./data-wrangling/Group_pandas_data_by_hour_of_day.ipynb)
+
 ## Plotting
 
 * [Color map for labels with islice](./plotting/Color_map_for_labels_with_islice.ipynb)
