@@ -4,9 +4,13 @@
 
 This repository contains some Jupyter notebooks that may or may not be useful to you. 
 
+I track working with a Trello board which you can find [here](https://trello.com/b/mRx0Lpqv). 
+
 ## Creating data
 
+* [Create simulated data for clustering (blobs)](./creating-data/Create_simulated_data_for_clustering_(blobs).ipynb)
 * [Create simulated data for regression](./creating-data/Create_simulated_data_for_regression.ipynb)
+* [Create simulated data for classification (moons)](./creating-data/Create_simulated_data_moons.ipynb)
 
 ## Plotting
 
