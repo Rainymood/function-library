@@ -17,7 +17,7 @@ Link to Trello board can be found [here](https://trello.com/b/mRx0Lpqv).
 
 ## Data wrangling
 
-* [Group_pandas_data_by_hour_of_day](./data-wrangling/Group_pandas_data_by_hour_of_day.ipynb)
+* [Group pandas data by hour of day](./data-wrangling/Group_pandas_data_by_hour_of_day.ipynb)
 
 ## Plotting
 
@@ -28,7 +28,7 @@ Link to Trello board can be found [here](https://trello.com/b/mRx0Lpqv).
 * [Drop rows missing data](./preprocessing-structured-data/Drop_rows_missing_data.ipynb)
 * [Convert Pandas Categorical Data with LabelEncoder (Scikit-Learn)](./preprocessing-structured-data/Convert_pandas_categorical_data_with_LabelEncoder_(scikit-learn).ipynb)
 * [One-hot encode nominal categorical features](preprocessing-structured-data/One-hot_encode_nominal_categorical_features_(OneHotEncoder).ipynb)
-* [Encode ordinal categorical features with `OrdinalEncoder`](./preprocessing-structured-data/Encode_ordinal_categorical_features_(OrdinalEncoder).ipynb)
+* [Encode ordinal categorical features with OrdinalEncoder](./preprocessing-structured-data/Encode_ordinal_categorical_features_(OrdinalEncoder).ipynb)
 * [Discretize features](./preprocessing-structured-data/Discretize_features.ipynb)
 
 ## sk-learn pipelines
