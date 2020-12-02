@@ -1,5 +1,9 @@
 # function-library
 
+## Creating data
+
+* [Create simulated data for regression](./creating-data/Create_simulated_data_for_regression.ipynb)
+
 ## Preprocessing structured data
 
 * [Impute missing data with means](./preprocessing-structured-data/Impute_missing_data_with_means.ipynb)
@@ -12,3 +16,7 @@
 ## sk-learn pipelines
 
 * [Selecting numerical columns with a custom transformer (ColumnSelector)](sklearn-pipelines/Selecting_numerical_columns_with_custom_transformer.ipynb)
+
+## Linear regression
+
+* [Linear regression using scikit-learn](./linear-regression/Linear-regression-using-scikit-learn.ipynb)
