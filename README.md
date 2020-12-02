@@ -1,9 +1,16 @@
-# function-library
+# Function library
+
+![](./library-of-alexandria.png)
+
+This repository contains some Jupyter notebooks that may or may not be useful to you. 
 
 ## Creating data
 
 * [Create simulated data for regression](./creating-data/Create_simulated_data_for_regression.ipynb)
 
+## Plotting
+
+* [Color map for labels with islice](./plotting/Color_map_for_labels_with_islice.ipynb)
 ## Preprocessing structured data
 
 * [Impute missing data with means](./preprocessing-structured-data/Impute_missing_data_with_means.ipynb)
@@ -20,3 +27,7 @@
 ## Linear regression
 
 * [Linear regression using scikit-learn](./linear-regression/Linear-regression-using-scikit-learn.ipynb)
+
+## Acknowledgements
+
+Many of these notebooks are shamelessly stolen from [Chris Albon](https://chrisalbon.com/)'s website. 
