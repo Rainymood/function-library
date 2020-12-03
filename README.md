@@ -15,6 +15,7 @@ Link to Trello board can be found [here](https://trello.com/b/mRx0Lpqv).
 * [Create simulated data for clustering (blobs)](./creating-data/Create_simulated_data_for_clustering_(blobs).ipynb)
 * [Create simulated data for regression](./creating-data/Create_simulated_data_for_regression.ipynb)
 * [Create simulated data for classification (moons)](./creating-data/Create_simulated_data_moons.ipynb)
+* [Loading Keras IMDB dataset](./creating-data/Loading_keras_imdb_dataset.ipynb)
 * [Loading scikit-learn Boston housing dataset](./creating-data/Loading_scikit_learn_boston_housing_dataset.ipynb)
 * [Loading scikit-learn Digits dataset](./creating-data/Loading_scikit_learn_digits_dataset.ipynb)
 * [Loading scikit-learn Iris dataset](./creating-data/Loading_scikit_learn_iris_datset.ipynb)
