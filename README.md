@@ -6,6 +6,10 @@ This repository contains some Jupyter notebooks that may or may not be useful to
 
 Link to Trello board can be found [here](https://trello.com/b/mRx0Lpqv). 
 
+## Computer science
+
+* [Quicksort](./computer-science/algorithms/Quicksort.ipynb)
+
 ## Creating data
 
 * [Create simulated data for clustering (blobs)](./creating-data/Create_simulated_data_for_clustering_(blobs).ipynb)
