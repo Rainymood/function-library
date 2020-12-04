@@ -34,7 +34,6 @@ python3 markdown_tree.py > README.md
 - [Group pandas data by hour of day.ipynb](data-wrangling/Group_pandas_data_by_hour_of_day.ipynb)
 # [linear-regression](linear-regression)
 - [Linear-regression-using-scikit-learn.ipynb](linear-regression/Linear-regression-using-scikit-learn.ipynb)
-# [make readme.ipynb](make_readme.ipynb)
 # [plotting](plotting)
 - [Color map for labels with islice.ipynb](plotting/Color_map_for_labels_with_islice.ipynb)
 # [preprocessing-structured-data](preprocessing-structured-data)
@@ -44,6 +43,8 @@ python3 markdown_tree.py > README.md
 - [Encode ordinal categorical features (OrdinalEncoder).ipynb](preprocessing-structured-data/Encode_ordinal_categorical_features_%28OrdinalEncoder%29.ipynb)
 - [Impute missing data with means.ipynb](preprocessing-structured-data/Impute_missing_data_with_means.ipynb)
 - [One-hot encode nominal categorical features (OneHotEncoder).ipynb](preprocessing-structured-data/One-hot_encode_nominal_categorical_features_%28OneHotEncoder%29.ipynb)
+# [python](python)
+- [Find all jupyter notebooks in folder.ipynb](python/Find_all_jupyter_notebooks_in_folder.ipynb)
 # [sklearn-pipelines](sklearn-pipelines)
 - [Selecting numerical columns with custom transformer.ipynb](sklearn-pipelines/Selecting_numerical_columns_with_custom_transformer.ipynb)
 # Acknowledgements
