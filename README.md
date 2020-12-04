@@ -36,6 +36,7 @@ python3 markdown_tree.py > README.md
 - [Linear-regression-using-scikit-learn.ipynb](linear-regression/Linear-regression-using-scikit-learn.ipynb)
 # [plotting](plotting)
 - [Color map for labels with islice.ipynb](plotting/Color_map_for_labels_with_islice.ipynb)
+- [Simple bar plot matplotlib.ipynb](plotting/Simple_bar_plot_matplotlib.ipynb)
 # [preprocessing-structured-data](preprocessing-structured-data)
 - [Convert pandas categorical data with LabelEncoder (scikit-learn).ipynb](preprocessing-structured-data/Convert_pandas_categorical_data_with_LabelEncoder_%28scikit-learn%29.ipynb)
 - [Discretize features.ipynb](preprocessing-structured-data/Discretize_features.ipynb)
