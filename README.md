@@ -32,6 +32,8 @@ python3 markdown_tree.py > README.md
 - [Loading scikit learn iris datset.ipynb](creating-data/Loading_scikit_learn_iris_datset.ipynb)
 # [data-wrangling](data-wrangling)
 - [Group pandas data by hour of day.ipynb](data-wrangling/Group_pandas_data_by_hour_of_day.ipynb)
+# [git](git)
+- [How to revert to previous commit.md](git/How_to_revert_to_previous_commit.md)
 # [javascript](javascript)
 - [express](javascript/express)
   - [How to disable cors.md](javascript/express/How_to_disable_cors.md)
