@@ -34,6 +34,7 @@ python3 markdown_tree.py > README.md
 - [Group pandas data by hour of day.ipynb](data-wrangling/Group_pandas_data_by_hour_of_day.ipynb)
 # [javascript](javascript)
 - [express](javascript/express)
+  - [How to disable cors.md](javascript/express/How_to_disable_cors.md)
   - [How to set up basic express app.md](javascript/express/How_to_set_up_basic_express_app.md)
 # [linear-regression](linear-regression)
 - [Linear-regression-using-scikit-learn.ipynb](linear-regression/Linear-regression-using-scikit-learn.ipynb)

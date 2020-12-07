@@ -14,6 +14,8 @@ Then set the port with `app.set()`.
 app.set('port', 5000)
 ```
 
+Then we add some body parsers. Sometimes this is not needed but you can put it in regardless. Can't hurt really.
+
 ```js
 // Support parsing of application/x-www-form-urlencoded post data
 app.use(bodyParser.urlencoded({
