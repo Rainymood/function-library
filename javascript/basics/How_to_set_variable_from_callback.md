@@ -1,36 +1,42 @@
 # How to set variable from callback 
 
-This is something that you will have to do often so it makes sense to write
-it down. How do you set a variable value based on the result of a callback?
+If you try to "set a variable from a callback", like I once wanted to do.
+Then you don't really *understand* JavaScript. This is not bad, you just need
+someone to explain it to you. Because, MAN, this shit is confusing if you've
+never worked with async.
 
-The solution is to make the function async. 
+## The problem
 
-Imagine you have 
+The problem is that we are dealing with asynchronous code. This means that
+sending the request and retrieving the response are taken out of the normal
+execution flow.
+
+Consider the following example. 
 
 ```js
-// Get value from cache
-cache.get(key, (err, reply) => {
-    if (err) {
-        console.log(err)
-    }
-    const val = reply
-})
+function foo() {
+    var result;
 
-// Use value from cache
-doSomething(val)
+    fs.readFile("path/to/file", function(err, data) {
+        result = data;
+        // return data; // <- I tried that one as well
+    });
+
+    return result; // It always returns `undefined`
+}
 ```
 
-This will behave like you won't expect. `val` will most likely be some weird
-value like `null` or `undefined`. This is because JavaScript is asynchronous.
-It just runs top down and doesn't stop for anything really.
+The point is that the code runs everything top down: 
 
-## Solution 1 
+* It creates a variable `result`
+* It sends off the function `fs.ReadFile()`
+* It immediately continues to `return result`
 
-Make the `get` function async and use `await`. 
+Which of course, returns `undefined` because async doesn't wait! It returns
+`result` before the callback was called. Which is... exactly how async works.
 
-## Solution 2
+See this great stack overflow post: 
 
-Turn it into a promise. 
-
+* https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call/14220323#14220323
 
 

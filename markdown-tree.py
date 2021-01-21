@@ -5,6 +5,10 @@ from pathlib import Path
 import json
 import click
 
+MARKDOWN_PREFIX = [
+    "# {}",
+    "- {}",
+]
 
 MARKDOWN_HEADER = """
 # Function-library
@@ -22,18 +26,17 @@ Link to Trello board can be found [here](https://trello.com/b/mRx0Lpqv).
 To generate this readme file run `markdown_tree.py`
 
 ```bash
-python3 markdown_tree.py > README.md
+python markdown-tree.py > README.md
+```
+
+Run with
+
+```bash
+jupyter notebook
 ```
 
 # Content
 """
-
-
-MARKDOWN_PREFIX = [
-    "# {}",
-    "- {}",
-]
-
 
 MARKDOWN_FOOTER = """
 # Acknowledgements

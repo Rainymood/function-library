@@ -14,7 +14,13 @@ Link to Trello board can be found [here](https://trello.com/b/mRx0Lpqv).
 To generate this readme file run `markdown_tree.py`
 
 ```bash
-python3 markdown_tree.py > README.md
+python markdown-tree.py > README.md
+```
+
+Run with
+
+```bash
+jupyter notebook
 ```
 
 # Content
@@ -41,8 +47,13 @@ python3 markdown_tree.py > README.md
 - [express](javascript/express)
   - [How to disable cors.md](javascript/express/How_to_disable_cors.md)
   - [How to set up basic express app.md](javascript/express/How_to_set_up_basic_express_app.md)
+- [redis](javascript/redis)
+  - [How to get value from cache async.md](javascript/redis/How_to_get_value_from_cache_async.md)
 # [linear-regression](linear-regression)
 - [Linear-regression-using-scikit-learn.ipynb](linear-regression/Linear-regression-using-scikit-learn.ipynb)
+# [markdown-tree.py](markdown-tree.py)
+# [models](models)
+- [linear-regression.ipynb](models/linear-regression.ipynb)
 # [plotting](plotting)
 - [Color map for labels with islice.ipynb](plotting/Color_map_for_labels_with_islice.ipynb)
 - [Simple bar plot matplotlib.ipynb](plotting/Simple_bar_plot_matplotlib.ipynb)
