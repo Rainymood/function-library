@@ -108,7 +108,7 @@ class MarkdownTreeGenerator(object):
         return '  ' * (i - len(self.prefixes) + 1) + self.prefixes[-1]
 
     def link(self, text, href):
-        return '[{}]({})'.format(text.replace("_", " "), href) # replace underscores with spaces
+        return '[{}]({})'.format(text.replace("_", " ").replace("-", " "), href) # replace underscores/hypens with spaces
 
     def get_emoji(self, entry):
         if not self.emoji:
